@@ -9,33 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = 'toolios'
   s.version          = '1.0.0'
-  s.summary          = 'A tiny description of toolios.' #TODO: @jmaire
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = 'A longer description of toolios.' #TODO: @jmaire
-  
+  s.summary          = 'A bunch of tools for Swift developers.'
+  s.description      = 'A bunch of tools for Swift developers.'
   s.homepage         = 'https://github.com/jmaire/toolios'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julien Maire' => 'julien.maire.pro@gmail.com' }
   s.source           = { :git => 'https://github.com/jmaire/toolios.git', :tag => s.version.to_s }
-
   s.ios.deployment_target = '11.0'
-
   s.source_files = 'Sources/**/*'
-  
   s.swift_version = '4.2'
-  
-  # s.resource_bundles = {
-  #   'toolios' => ['toolios/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
