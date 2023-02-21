@@ -1,0 +1,16 @@
+PODS:
+  - toolios (0.1.0)
+
+DEPENDENCIES:
+  - toolios (from `../`)
+
+EXTERNAL SOURCES:
+  toolios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  toolios: d6fc35ba8cbceb30d8488a571987d77400770063
+
+PODFILE CHECKSUM: 4c6fe261decbee54149795592bb325142461f11a
+
+COCOAPODS: 1.11.2

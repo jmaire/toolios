@@ -1,0 +1,6 @@
+framework module Pods_toolios_Tests {
+  umbrella header "Pods-toolios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

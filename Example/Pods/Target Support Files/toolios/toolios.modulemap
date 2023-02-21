@@ -1,0 +1,6 @@
+framework module toolios {
+  umbrella header "toolios-umbrella.h"
+
+  export *
+  module * { export * }
+}
