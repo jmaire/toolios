@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Julien Maire' => 'julien.maire@dazz.fun' }
-  s.source           = { :git => 'https://julien_maire@bitbucket.org/dazz_tv/toolios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jmaire/toolios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
 
