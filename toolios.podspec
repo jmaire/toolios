@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'toolios'
-  s.version          = '0.1.41'
+  s.version          = '1.0.0'
   s.summary          = 'A tiny description of toolios.' #TODO: @jmaire
 
 # This description is used to generate tags and improve search results.
@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = 'A longer description of toolios.' #TODO: @jmaire
   
-  s.homepage         = 'https://bitbucket.org/dazz_tv/toolios'
+  s.homepage         = 'https://github.com/jmaire/toolios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Julien Maire' => 'julien.maire@dazz.fun' }
+  s.author           = { 'Julien Maire' => 'julien.maire.pro@gmail.com' }
   s.source           = { :git => 'https://github.com/jmaire/toolios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
