@@ -8,7 +8,7 @@
 
 extension NSError {
     
-    static let tooliosDomain = "com.dazz.toolios"
+    static let tooliosDomain = "toolios"
     
     static let unknownError = NSError(code: -1, userInfo: [NSLocalizedDescriptionKey: "An unknown error has occurred"])
     
