@@ -1,10 +1,15 @@
 # toolios
 
+[![CI Status](https://img.shields.io/travis/Julien Maire/toolios.svg?style=flat)](https://travis-ci.org/Julien Maire/toolios)
+[![Version](https://img.shields.io/cocoapods/v/toolios.svg?style=flat)](https://cocoapods.org/pods/toolios)
+[![License](https://img.shields.io/cocoapods/l/toolios.svg?style=flat)](https://cocoapods.org/pods/toolios)
+[![Platform](https://img.shields.io/cocoapods/p/toolios.svg?style=flat)](https://cocoapods.org/pods/toolios)
+
 ## Contents
 
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Credits](#credits)
+- [Author](#author)
 - [License](#license)
 
 ## Requirements
@@ -14,16 +19,11 @@
 
 ## Installation
 
-To integrate toolios into your Xcode project, specify it in your `Podfile`:
+toolios is available through [CocoaPods](https://cocoapods.org).
+To install it in your Xcode project, specify it in your `Podfile`:
 
 ```
-source 'https://github.com/jmaire/toolios.git'
-platform :ios, '11.0'
-use_frameworks!
-
-target '<Your Target Name>' do
-	pod 'toolios', :git => 'https://github.com/jmaire/toolios.git'
-end
+pod 'toolios'
 ```
 
 Then, run the following command:
@@ -32,7 +32,7 @@ Then, run the following command:
 $ pod install
 ```
 
-## Credits
+## Author
 
 - Julien Maire
 
