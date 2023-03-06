@@ -19,6 +19,8 @@ open class BasePromise<ResolveType, RejectType> {
     private(set) var resolvedValue: ResolveType?
     private(set) var rejectedValue: RejectType?
     
+    private var resolveCount: Int = 0
+    private var rejectCount: Int = 0
     private(set) var state: PromiseState = .pending
     
     private let mutex = DispatchSemaphore(value: 1)
@@ -46,6 +48,7 @@ open class BasePromise<ResolveType, RejectType> {
         mutex.wait()
         defer { mutex.signal() }
         
+        resolveCount += 1
         state = .resolved
         resolvedValue = value
         rejectedValue = nil
@@ -60,6 +63,7 @@ open class BasePromise<ResolveType, RejectType> {
         mutex.wait()
         defer { mutex.signal() }
         
+        rejectCount += 1
         state = .rejected
         resolvedValue = nil
         rejectedValue = value
@@ -70,19 +74,13 @@ open class BasePromise<ResolveType, RejectType> {
         child?.reject(value)
     }
     
-    public func chain(_ promise: BasePromise<ResolveType, RejectType>) {
+    public func chain(_ promise: BasePromise<ResolveType, RejectType>) {        
         if let child = self.child {
             child.chain(promise)
         } else {
             self.child = promise
         }
     }
-    
-//    func unchain() {
-//        if let parent = self.parent, let child = self.child {
-//            parent.chain(child: child)
-//        }
-//    }
 }
 
 

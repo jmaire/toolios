@@ -10,13 +10,13 @@ import Foundation
 
 public class Completer<CompletionType>: NSObject {
     
-    public typealias Completion<CompletionType> = (CompletionType) -> Void
+    public typealias Completion = (CompletionType) -> Void
     
-    private let completion: Completion<CompletionType>
+    private let completion: Completion
     
     private var child: Completer<CompletionType>?
     
-    public init(_ completion: @escaping Completion<CompletionType>) {
+    public init(_ completion: @escaping Completion) {
         self.completion = completion
         super.init()
     }
