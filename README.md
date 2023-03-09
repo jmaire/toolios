@@ -1,6 +1,5 @@
 # toolios
 
-[![CI Status](https://img.shields.io/travis/Julien Maire/toolios.svg?style=flat)](https://travis-ci.org/Julien Maire/toolios)
 [![Platform](https://img.shields.io/cocoapods/p/toolios.svg?style=flat)](https://cocoapods.org/pods/toolios)
 [![Version](https://img.shields.io/cocoapods/v/toolios.svg?style=flat)](https://cocoapods.org/pods/toolios)
 [![License](https://img.shields.io/cocoapods/l/toolios.svg?style=flat)](https://cocoapods.org/pods/toolios)
