@@ -1,4 +1,5 @@
-//
+// swift-tools-version:5.3
+
 //  Package.swift
 //  toolios
 //
@@ -6,7 +7,6 @@
 //  Copyright © 2022-2025 Julien Maire
 //
 
-// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
