@@ -3,7 +3,7 @@
 //  toolios
 //
 //  Created by Julien Maire on 10/05/2022.
-//  Copyright © 2022 Dazz. All rights reserved.
+//  Copyright © 2022-2025 Julien Maire
 //
 
 import Foundation
