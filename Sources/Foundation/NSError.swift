@@ -6,6 +6,8 @@
 //  Copyright © 2022 Dazz. All rights reserved.
 //
 
+import Foundation
+
 extension NSError {
     
     static let tooliosDomain = "toolios"
