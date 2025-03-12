@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'toolios'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A bunch of tools for Swift developers.'
   s.description      = 'A bunch of tools for Swift developers like promise, logger, cache, etc...'
   s.homepage         = 'https://github.com/jmaire/toolios'
