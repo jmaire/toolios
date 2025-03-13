@@ -49,7 +49,7 @@
 		A93EF5A8B461D6CFEAAEDC98 /* Pods-toolios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toolios_Example.debug.xcconfig"; path = "Target Support Files/Pods-toolios_Example/Pods-toolios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACDF22555133AD3D3FD5E01E /* Pods-toolios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toolios_Example.release.xcconfig"; path = "Target Support Files/Pods-toolios_Example/Pods-toolios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BC31345B44B49016A1A24BBB /* Pods_toolios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toolios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0C249362D81C83D0084745D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		C078E0CE2D82D825007CB326 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		E5565024F914D898B773C93C /* Pods-toolios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toolios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-toolios_Tests/Pods-toolios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBE1A9A02809C298001FE87B /* DataListenerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListenerExample.swift; sourceTree = "<group>"; };
 		EBE1A9A32809C3B9001FE87B /* DataListenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListenerTests.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				C0C249362D81C83D0084745D /* Package.swift */,
+				C078E0CE2D82D825007CB326 /* Package.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for toolios */,
 				607FACE81AFB9204008FA782 /* Tests */,
